@@ -35,7 +35,7 @@ int main(int argc, const char * argv[])
 				 extensions = " \\( -type f -name '" + str2 + "'";
 			 }
 			 else {
-				 extensions += " -o -name '"  + str2 + "'";
+				 extensions += " -type f -o -name '"  + str2 + "'";
 			 }
 			 ++count;
 			 ptr = strtok(NULL,delims);
